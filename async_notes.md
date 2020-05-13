@@ -58,7 +58,7 @@
 
 ### Chapter 1: Asynchrony --> Now and later:
 
-- It's about what happens when part of your program runs now and, another part of your program runs later. There's a gap between now and later where your program isnt actively executing.
+- It's about what happens when part of your program runs now and, another part of your program runs later. There's a gap between now and later where your program isn't actively executing.
 - Practically all nontrivial programs ever written (especially in JS) have in some way or another had to manage this gap.
 - Examples of when these gaps occur:
 
@@ -73,4 +73,4 @@
 
 ## A program in chunks:
 
-- Any time you wrap a portion of code into a function
+- Any time you wrap a portion of code into a function and specify that it should be executed in response to some event (timer, mouse click, Ajax response etc), you are creating a later chunk of your code, and thus introducing asynchrony to your program.
