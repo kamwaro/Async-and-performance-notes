@@ -4,15 +4,18 @@
   box-sizing: border-box;
 }
 
-img {
-  border-radius: 105px 105px 105px 105px;
-  -moz-border-radius: 105px 105px 105px 105px;
-  -webkit-border-radius: 105px 105px 105px 105px;
-  border: 0px solid #000000;
-}
-
 body {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Allura', cursive;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border-top: 1px solid #000;
+}
+
+.user:hover {
+  box-shadow: 0 0 1em #000;
 }
